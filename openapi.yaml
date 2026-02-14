@@ -1,23 +1,25 @@
 openapi: 3.0.4
 info:
   title: Random Facts
-  description: Random Facts is a simple tool for getting random facts. It returns a random fact.
+  description: >-
+    Random Facts is a simple tool for getting random facts. It returns a random
+    fact.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
     email: hello@apiverve.com
     url: https://apiverve.com/contact
-  version: 1.0.9
+  version: 1.0.0
 externalDocs:
   description: Learn more about APIVerve
   url: https://docs.apiverve.com?utm_source=openapi
 servers:
-- url: https://api.apiverve.com/
+  - url: https://api.apiverve.com/
 paths:
   /v1/randomfacts:
     get:
       summary: Get Random Fact
-      description: Random Facts is a simple tool for getting random facts. It returns a random fact.
+      description: Get a random fact
       operationId: randomfacts
       parameters: []
       responses:
@@ -35,19 +37,19 @@ paths:
                     type: string
                     description: error
                   data:
-                    type: string
+                    type: object
                     description: data
               example:
                 status: ok
-                error: 
+                error: null
                 data:
-                  fact: Non-dairy creamer is flammable.
+                  fact: Rhinoceros have 3 toes on each foot
         '401':
           description: Your request was not authorized, or your API Key was invalid
         '404':
           description: Requested resource was not found
         '500':
-          description: A server error has occured, try again later
+          description: A server error has occurred, try again later
 components:
   securitySchemes:
     api_key:
@@ -55,4 +57,4 @@ components:
       name: x-api-key
       in: header
 security:
-- api_key: []
+  - api_key: []
