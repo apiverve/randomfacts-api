@@ -216,8 +216,9 @@ from apiverve_randomfacts.apiClient import RandomfactsAPIClient
 
 api = RandomfactsAPIClient("[YOUR_API_KEY]")
 
+# This API does not require a Query
+
 try:
-    # This API does not require a Query
     result = api.execute()
     print(result)
 finally:
