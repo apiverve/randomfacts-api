@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/randomfacts",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "Random Facts is a simple tool for getting random facts. It returns a random fact.",
   "main": "index.js",
   "types": "index.d.ts",
