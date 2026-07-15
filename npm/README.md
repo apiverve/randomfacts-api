@@ -116,7 +116,7 @@ async function makeRequest() {
   "status": "ok",
   "error": null,
   "data": {
-    "fact": "Non-dairy creamer is flammable."
+    "fact": "Rhinoceros have 3 toes on each foot"
   }
 }
 ```
