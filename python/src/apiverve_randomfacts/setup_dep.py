@@ -2,17 +2,17 @@ from setuptools import setup, find_packages
 
 setup(
     name='apiverve_randomfacts',
-    version='1.1.14',
+    version='1.2.2',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
         'requests',
         'setuptools'
     ],
-    description='Random Facts is a simple tool for getting random facts. It returns a random fact.',
+    description='Random Facts is a fun facts API that delivers a random fact on every request without requiring any query parameters. Drop bite-sized trivia into apps, chat widgets, and daily notification feeds.',
     author='APIVerve',
     author_email='hello@apiverve.com',
-    url='https://apiverve.com/marketplace/randomfacts?utm_source=pypi&utm_medium=homepage',
+    url='https://apiverve.com/marketplace/randomfacts?utm_source=pypi&utm_medium=referral&utm_content=homepage',
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
