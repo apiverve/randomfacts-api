@@ -1,0 +1,49 @@
+{
+    "name": "apiverve/randomfacts",
+    "description": "Random Facts is a fun facts API that delivers a random fact on every request without requiring any query parameters. Drop bite-sized trivia into apps, chat widgets, and daily notification feeds.",
+    "version": "1.2.2",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "APIVerve",
+            "email": "hello@apiverve.com",
+            "homepage": "https://apiverve.com"
+        }
+    ],
+    "keywords": [
+        "api",
+        "apiverve",
+        "randomfacts",
+        "random facts api",
+        "fun facts api",
+        "fun fact api",
+        "random fact api",
+        "facts api"
+    ],
+    "homepage": "https://apiverve.com/marketplace/randomfacts?utm_source=php&utm_medium=referral&utm_content=homepage",
+    "support": {
+        "email": "hello@apiverve.com",
+        "docs": "https://docs.apiverve.com/ref/randomfacts",
+        "source": "https://github.com/apiverve/randomfacts-API/tree/main/php"
+    },
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "APIVerve\\Randomfacts\\": "php/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "APIVerve\\Randomfacts\\Tests\\": "php/tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
