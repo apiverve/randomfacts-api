@@ -4,6 +4,6 @@ require_relative "apiverve_randomfacts/client"
 
 module APIVerve
   module Randomfacts
-    VERSION = "1.2.2"
+    VERSION = "1.2.3"
   end
 end
